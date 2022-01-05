@@ -1,8 +1,8 @@
-# HTML EGITIMI ODEV VE UYGULAMALARI
-## ODEV 1 - İlk Web Sayfamızı Oluşturmak 
-    --> Sayfa olusturuldu.
-## ODEV 2 - Kişisel Sayfamızı Detaylandırmaya Devam Etmek
-    --> Listeler olusturuldu.
-    --> Link calismalari yapildi.
-## ODEV 3 - Çikolatalı Küp Tarifi
-    --> Eğitmenle kodlanan bolum sonu uygulaması yapildi ve odev_3 yuklendi.
+# FRONTEND WEB DEVELOPMENT PATİKASI
+   Bootcamp Hızlandırma Eğitimi icin asagidaki dil ve frameworklere ait odevler yuklenmistir:
+   - HTML
+   - CSS
+   - HTML
+   - JavaScript
+   - Veri Yapıları ve Algoritmalar
+   - React
