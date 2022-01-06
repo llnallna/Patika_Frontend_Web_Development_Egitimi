@@ -1,0 +1,91 @@
+
+/* body {
+    margin: 0;
+    padding: 0;
+  } */
+
+/* .p {
+    line-height: 1.0;
+} */
+
+.search-bar {
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    /* margin-left: auto; kutuların solundaki boslugu sayfada otomatik olarak ayarlar */
+    /* margin-right: auto;kutuların sagindaki boslugu sayfada otomatik olarak ayarlar */
+    /* margin: 0 auto 0 auto; -> yukari sag asagi sol (hizli yol) */
+    /* margin: 0 auto; -> y ekseni 0; x ekseni auto demek (daha hizli yol) */
+    
+}
+
+.image {
+    display: block;
+    text-align: center; 
+}
+
+.left-box {
+    width: 399px;
+    height: 79px;
+    margin-right: 1px;     
+    float: left;
+    padding-top: 1.8px;
+    text-align: center;
+}
+
+.middle-box {
+    width: 200px;
+    height: 80px;
+    margin-right: 10px;
+    float: left;  
+    padding-top: 0.8px;
+    text-align: center;
+}
+
+.rigt-box {
+    width: 399px;
+    /* height: 100px; */
+    margin-left: 601px;
+    /* float: left; */
+    text-align: center;
+}
+
+
+
+.clear {
+    clear: both; /* --> kutuların sagini solunu bos birakmamizi saglar. */
+}
+
+/* egitimde kullanilan box: */
+.box {
+    width: 300px;
+    height: 300px;
+    padding: 10px;          /* yazı ile çerçeve(border) arası bosluk */
+    /* margin: 10px;           4 taraftan da belirtilen deger kdr bosluk verir */
+    margin-left: 10px;      /* emmet --> ml tab tusu */
+    margin-top: 10px;       /* emmet --> mt tab */
+    margin-bottom: 10px;    /* emmet --> mb tab */
+    /* margin-right: 10px;     emmet --> mb tab */
+    float: left;            /*--> kutuları yanyana getirir, left veya right alır */
+}
+
+.bg-all {
+    background-color: rgb(176, 176, 177);
+}
+
+.bg-left {
+    background-color: rgb(118, 230, 230);
+}
+
+.bg-middle {
+    background-color: rgb(74, 161, 161);
+}
+
+.bg-right {
+    background-color: rgb(47, 105, 105);
+}
