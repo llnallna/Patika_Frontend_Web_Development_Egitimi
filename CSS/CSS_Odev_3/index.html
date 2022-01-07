@@ -1,0 +1,151 @@
+<!-- 
+++ Fark ettiyseniz logo eski bir Google logosu. Bu logoyu günümüzde logo ile değiştirmelisiniz. Kullanmanız gereken logo assets klasöründe bulunmakta. 
+
+++ Üstteki alanı sağ tarafa alın ve fotoğrafı kendi fotoğrafınız ile değiştirin ve fotoğrafın kenarlarını yarıçap özelliği ile düzenleyiniz.
+
+++ Arama yapılacak alanın kenarlarını yarıçap özelliği ile düzenleyiniz.
+
+Arama simgesi gibi sesle arama simgesini de siz ekleyin. (Nasıl yapıldığını görmek için Google Ana Sayfa'dan İncele ile yazılanları inceleyiniz.)
+
+++ Arama alanında yazı yazılan yerin genişliği 480px olmalı ve kenarlığı olmamalı.
+
+++ Buttonları ortaya alıp üstünden ve sağından boşluklar veriniz. Button kenarları 1px kalın #f2f2f2 renginde olmalı. Yazı tipi Arial, yazı rengi #5f6368, yazı boyutu 14px olmalı. Button yüksekliği 36px olmalı.
+
+++ Buttonlara aynı arama alanında olduğu gibi gölge veriniz.
+
+++ Footerda arkaplan rengini #f2f2f2 yapınız ve liste noktalarını ortadan kaldırın. (Bir önceki ödevde söylediğimiz w3schools.com'un CSS tutorialını, Türkçe kaynak için Fatih Hayrioğlu'un sitesini kullanabilirsiniz.)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="referrer" content="origin" >
+    <meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <link rel="stylesheet" href="Google_CSS/style.css" />
+    <title>Google</title>
+  </head>
+  <body>
+    <div class="panel">
+      <nav>
+        <ul class="header">
+          <li class="headerli">
+            <a href="" target="">
+              <!-- profil fotografi eklendi -->
+              <img
+                src="profile.png"
+                alt="sdfsdg"
+                style="margin-right: 1px;"
+                width="20px"
+                height="20px"
+            /></a>
+          </li>
+          <li class="headerli">
+            <!-- gorsel eklendi -->
+            <a href="https://www.google.com.tr/imghp?hl=tr&amp;ogbl" target="_top">
+                <img src="
+                appsbutton.svg" alt="dsfsd"
+                width="20px"
+                height="20px"
+                />
+            </a>
+          </li>
+          <!-- alt satırda değişiklik var anıl -->
+          <li  class="headerli">
+            <a ref="https://www.google.com.tr/imghp?hl=en&tab=wi&authuser=0&ogbl"
+              >Images</a>
+          </li>
+          <li class="headerli">
+            <a href="https://mail.google.com/mail/?tab=wm&authuser=0&ogbl"
+              >Gmail</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="container">
+          <!-- logo guncellendi -->
+        <img
+          src="https://www.google.com.tr/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+          width="272px"
+          height="92"
+          alt=""/>
+      </div>
+      <div class="search-area">
+        <div class="search">
+          <div class="search-img">
+            <span>
+              <svg
+                focusable="false"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                ></path>
+              </svg>
+            </span>
+          </div>
+          <div class="input-enter">
+            <div class="input-area">
+              <input
+                type="text"
+                class="input"
+                maxlength="2048"
+                autofocus="true"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <a href=""
+          ><button class="googlesearch">Google Search</button></a
+        >
+        <a href=""
+          ><button class="feelinglucky">I'm Feeling Lucky</button></a
+        >
+      </div>
+    </div>
+
+    <nav>
+      <ul class="footer">
+        <li class="footerli">
+          <a
+            href="https://www.google.com/intl/en_tr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+            >Advertising</a
+          >
+        </li>
+        <li class="footerli">
+          <a
+            href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1"
+            >Business</a
+          >
+        </li>
+        <li class="footerli">
+          <a
+            href="https://about.google/?utm_source=google-TR&utm_medium=referral&utm_campaign=hp-footer&fg=1"
+            >About</a
+          >
+        </li>
+        <li class="footerli">
+          <a href="https://google.com/search/howsearchworks/?fg=1"
+            >How Search works</a
+          >
+        </li>
+
+        <li class="footerli" style="float: right; margin-right: 35px">
+          <a href="https://www.google.com/preferences?hl=en">Settings</a>
+        </li>
+
+        <li class="footerli" style="float: right">
+          <a href="https://policies.google.com/terms?hl=en-TR&fg=1">Terms</a>
+        </li>
+
+        <li class="footerli" style="float: right">
+          <a href="https://policies.google.com/privacy?hl=en-TR&fg=1">Privacy</a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
